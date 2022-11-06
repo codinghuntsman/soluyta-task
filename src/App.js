@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Banner from "./components/Banner/Banner";
+import DoctorSchedule from "./components/DoctorSchedule/DoctorSchedule";
+import SickKid from "./components/SickKid/SickKid";
+import MedicalCare from "./components/MedicalCare/MedicalCare";
+import Navbar from "./components/Navbar/Navbar";
+import MedicalInfo from "./components/MedicalInfo/MedicalInfo";
+// import Footer from "./components/Footer/Footer";
+// import MedicalExpert from "./components/MedicalExpert/MedicalExpert";
+// import PatientFeedback from "./components/PatientFeedback/PatientFeedback";
+// import SubsCribe from "./components/SubsCribe/SubsCribe";
+// import UpComingEvent from "./components/UpComingEvent/UpComingEvent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <SickKid></SickKid>
+      <DoctorSchedule></DoctorSchedule>
+      <MedicalCare></MedicalCare>
+      <MedicalInfo></MedicalInfo>
+      {/* <MedicalExpert></MedicalExpert>
+      <PatientFeedback></PatientFeedback>
+      <UpComingEvent></UpComingEvent>
+      <SubsCribe></SubsCribe>
+      <Footer></Footer> */}
     </div>
   );
 }

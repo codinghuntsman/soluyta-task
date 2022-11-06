@@ -1,0 +1,79 @@
+.nav-bg {
+  background: #273240;
+  overflow: hidden;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  height: 104px;
+  width: 100%;
+  overflow: hidden;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-one {
+  width: 40px;
+  height: 55px;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: white;
+  font-family: lato;
+  list-style: none;
+  cursor: pointer;
+}
+.login-btn-one {
+  width: 75px;
+  height: 50px;
+  padding-left: 50px;
+  margin: 0;
+}
+.login-btn-two {
+  width: 75px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .nav-bg {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .nav-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .nav-list {
+    gap: 5px;
+    font-size: 7px;
+  }
+  .logo-one {
+    width: 15px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .logo-two {
+    width: 80px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+  }
+  .login-btn-one {
+    width: 35px;
+    margin: 0;
+    padding: 0;
+  }
+  .login-btn-two {
+    width: 35px;
+  }
+}
