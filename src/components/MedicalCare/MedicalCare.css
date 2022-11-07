@@ -1,7 +1,5 @@
 .medicare-div {
   margin-top: 150px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 .medi {
   text-align: center;
@@ -17,7 +15,7 @@
 .care {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 15px;
 }
 .care img {
   width: 280px;

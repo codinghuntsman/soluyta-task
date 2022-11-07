@@ -1,0 +1,27 @@
+.feedback-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+.feed-bg {
+  position: relative;
+}
+.feed-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+.padding {
+  padding-left: 50px;
+}
+.name {
+  font-size: 20px;
+}
+.patient-title {
+  text-align: center;
+  color: orange;
+}

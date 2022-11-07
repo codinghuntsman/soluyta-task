@@ -1,0 +1,17 @@
+.subs-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.subs-hed {
+  text-align: center;
+}
+.subs-relative-div {
+  position: relative;
+}
+.doctor-vai {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}

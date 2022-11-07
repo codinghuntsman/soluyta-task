@@ -1,0 +1,40 @@
+.expert-sec {
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.title-section {
+  text-align: center;
+}
+.ex-para {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.photo-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.expert-description {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+.expert-btn {
+  background-color: #0089ba;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+/* -------------------Responsive----------------------- */
+@media only screen and (max-width: 600px) {
+  .photo-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .expert-sec {
+    width: 100%;
+  }
+}
